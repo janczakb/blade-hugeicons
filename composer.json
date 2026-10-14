@@ -1,0 +1,51 @@
+{
+    "name": "janczakb/blade-hugeicons",
+    "description": "Official Hugeicons Free SVG icons for Laravel Blade and Filament, generated from the pinned upstream npm release.",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "blade",
+        "filament",
+        "hugeicons",
+        "svg",
+        "icons"
+    ],
+    "require": {
+        "php": "^8.3",
+        "blade-ui-kit/blade-icons": "^1.8",
+        "illuminate/support": "^11.0|^12.0|^13.0"
+    },
+    "conflict": {
+        "afatmustafa/blade-hugeicons": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bjanczak\\BladeHugeicons\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bjanczak\\BladeHugeicons\\BladeHugeiconsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": [
+            "@php scripts/verify.php",
+            "phpunit"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10.0|^11.0",
+        "phpunit/phpunit": "^11.5|^12.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bjanczak\\BladeHugeicons\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "package": "@hugeicons/core-free-icons",
+  "version": "4.3.5",
+  "integrity": "sha512-Sv+NjHRPnQk+yZsGCMcGznCHdTfJR9PMMOEKcJYAQU4gy90dmlc9PwdtvYOImBZIjiheMsTLL5eMn2DmHxUiUg==",
+  "license": "MIT",
+  "style": "Stroke Rounded",
+  "icons": 6067,
+  "catalogSha256": "909c3bc9f536e214171e281d3d3e9c626dfaebcdef44b91be87b548befc8fe00"
+}

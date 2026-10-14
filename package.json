@@ -1,0 +1,12 @@
+{
+  "name": "blade-hugeicons-build",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/generate-icons.mjs",
+    "test": "node --test scripts/generate-icons.test.mjs"
+  },
+  "devDependencies": {
+    "@hugeicons/core-free-icons": "4.3.5"
+  }
+}
